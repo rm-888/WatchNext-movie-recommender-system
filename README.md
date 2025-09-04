@@ -27,7 +27,7 @@ A **movie recommendation system** built using Python and Streamlit. This app sug
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/movie-recommender.git
+git clone https://github.com/rm-888/movie-recommender.git
 cd movie-recommender
 ```
 
@@ -62,7 +62,7 @@ streamlit run app.py
 my-movie-recommender/<br>
 │<br>
 ├─ app.py           # Streamlit app (main entry)<br>
-├─ notebook.ipynb   # Data exploration & preprocessing<br>
+├─ movie-recommender-system.ipynb.ipynb   # Data exploration & preprocessing<br>
 ├─ requirements.txt # Python dependencies<br>
 ├─ README.md<br>
 ├─ tmdb_5000_credits.csv.zip<br>
@@ -72,7 +72,7 @@ my-movie-recommender/<br>
 ---
 
 ## Usage
--> Run notebook.ipynb first and then, app.py. Two files calles movies_dict.pkl & simi.pkl will be created which is needed to run the app.py(could not be included due to storage limitations).<br>
+-> Run movie-recommender-system.ipynb.ipynb first and then, app.py. Two files calles movies_dict.pkl & simi.pkl will be created which is needed to run the app.py(could not be included due to storage limitations).<br>
 -> Choose a movie from the dropdown.<br>
 -> Get top 5 recommended movies with posters.<br>
 
