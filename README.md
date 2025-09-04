@@ -1,4 +1,4 @@
-# Movie Recommender System
+# 🔎 WatchNext: Movie Recommender
 
 A **movie recommendation system** built using Python and Streamlit. This app suggests movies similar to your selection using a combination of **genres, keywords, cast, crew, and tags** from the TMDB 5000 Movies dataset.
 
@@ -55,33 +55,36 @@ streamlit run app.py
 
 6. Select a movie from the dropdown to get recommendations.
 
+---
 
 ## Repository Structure
 
-my-movie-recommender/
-│
-├─ app.py           # Streamlit app (main entry)
-├─ movies_dict.pkl  # Movie metadata
-├─ similarity.pkl   # Precomputed similarity matrix
-├─ notebook.ipynb   # Data exploration & preprocessing
-├─ requirements.txt # Python dependencies
-├─ README.md
-└─ .gitignore
+my-movie-recommender/<br>
+│<br>
+├─ app.py           # Streamlit app (main entry)<br>
+├─ notebook.ipynb   # Data exploration & preprocessing<br>
+├─ requirements.txt # Python dependencies<br>
+├─ README.md<br>
+└─ .gitignore<br>
 
+---
 
 ## Usage
--> Run notebook.ipynb first and then, app.py. Two files calles movies_dict.pkl & simi.pkl will be created which is needed to run the app.py(could not be included due to storage limitations).
--> Choose a movie from the dropdown.
--> Get top 5 recommended movies with posters.
+-> Run notebook.ipynb first and then, app.py. Two files calles movies_dict.pkl & simi.pkl will be created which is needed to run the app.py(could not be included due to storage limitations).<br>
+-> Choose a movie from the dropdown.<br>
+-> Get top 5 recommended movies with posters.<br>
 
+---
 
 ## Quick View
 <img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/a0c30616-0f34-4b70-b72e-bb6add5df846" />
 
+---
 
 ## License
 This project is open-source under the MIT License.
 
+---
 
 ## Contact
 Developed with ❤️ by Rujula Malhotra
