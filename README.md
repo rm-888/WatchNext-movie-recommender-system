@@ -65,6 +65,8 @@ my-movie-recommender/<br>
 ├─ notebook.ipynb   # Data exploration & preprocessing<br>
 ├─ requirements.txt # Python dependencies<br>
 ├─ README.md<br>
+├─ tmdb_5000_credits.csv.zip<br>
+├─ tmdb_5000_movies.csv.zip<br>
 └─ .gitignore<br>
 
 ---
