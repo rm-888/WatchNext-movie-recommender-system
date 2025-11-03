@@ -11,7 +11,8 @@ def fetch_poster(movie_id):
 
 model_path = hf_hub_download(
     repo_id="rm-888/watchnext-similarity",  # replace with your repo name
-    filename="simi.pkl"
+    filename="simi.pkl",
+    repo_type="dataset"
 )
 
 with open(model_path, "rb") as f:
@@ -79,3 +80,4 @@ footer = """
 
 
 st.markdown(footer, unsafe_allow_html=True)
+
