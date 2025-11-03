@@ -2,13 +2,22 @@ import streamlit as st
 import pickle
 import pandas as pd
 import requests
+from huggingface_hub import hf_hub_download
 
 def fetch_poster(movie_id):
     response = requests.get('https://api.themoviedb.org/3/movie/{}?api_key=5af90b957d32b90fbd642ea93912f26e&language=en-US'.format(movie_id))
     data = response.json()
     return "https://image.tmdb.org/t/p/w500" + data['poster_path']
 
-similarity = pickle.load(open('simi.pkl', 'rb'))
+model_path = hf_hub_download(
+    repo_id="rm-888/watchnext-similarity",  # replace with your repo name
+    filename="simi.pkl"
+)
+
+with open(model_path, "rb") as f:
+    similarity = pickle.load(f)
+    
+#similarity = pickle.load(open('simi.pkl', 'rb'))
 movies_dict = pickle.load(open('movies_dict.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
 
@@ -67,5 +76,6 @@ footer = """
     With ❤️ by rm-888
 </div>
 """
+
 
 st.markdown(footer, unsafe_allow_html=True)
