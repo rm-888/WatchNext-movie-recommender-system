@@ -65,7 +65,7 @@ streamlit run app.py
 my-movie-recommender/<br>
 │<br>
 ├─ app.py           # Streamlit app (main entry)<br>
-├─ movies_dict.pkl  # The movies dataset
+├─ movies_dict.pkl  # The movies dataset<br>
 ├─ movie-recommender-system.ipynb.ipynb   # Data exploration & preprocessing<br>
 ├─ requirements.txt # Python dependencies<br>
 ├─ README.md<br>
