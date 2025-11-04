@@ -3,7 +3,7 @@
 A **movie recommendation system** built using Python and Streamlit. This app suggests movies similar to your selection using a combination of **genres, keywords, cast, crew, and tags** from the TMDB 5000 Movies dataset.
 
 
-## TRY IT YOURSELF: https://watchnext-movie-recommender-system-ulxusiuxcy5mtbrnk7qsee.streamlit.app/
+## Try It Yourself: https://watchnext-movie-recommender-system-ulxusiuxcy5mtbrnk7qsee.streamlit.app/
 
 ---
 
@@ -65,6 +65,7 @@ streamlit run app.py
 my-movie-recommender/<br>
 │<br>
 ├─ app.py           # Streamlit app (main entry)<br>
+├─ movies_dict.pkl  # The movies dataset
 ├─ movie-recommender-system.ipynb.ipynb   # Data exploration & preprocessing<br>
 ├─ requirements.txt # Python dependencies<br>
 ├─ README.md<br>
