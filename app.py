@@ -10,7 +10,7 @@ def fetch_poster(movie_id):
     return "https://image.tmdb.org/t/p/w500" + data['poster_path']
 
 model_path = hf_hub_download(
-    repo_id="rm-888/watchnext-similarity",  # replace with your repo name
+    repo_id="rm-888/watchnext-similarity", 
     filename="simi.pkl",
     repo_type="dataset"
 )
@@ -80,4 +80,5 @@ footer = """
 
 
 st.markdown(footer, unsafe_allow_html=True)
+
 
